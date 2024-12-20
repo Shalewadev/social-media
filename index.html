@@ -1,1 +1,87 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title> social-links</title>
+  <style>
+    body{ 
+      background-color: hsl(0, 0%, 8%);
+      justify-items: center;
+      padding: 80px;
+      font-family: inter;
+    }
+.box{
+  background-color: hsl(0, 0%, 12%);
+  max-width: 400px;
+  padding: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px rgba(60, 59, 59, 0.2);
+  
+}
+.profile-picture{
+width: 75px;
+border-radius: 50px;
+margin-bottom: 20px;
+}
+.name{
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 8px;
+}
+.location{
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 0;
+}
+.bio{
+  margin-top: 20px;
+  color:hsl(0, 4%, 71%);
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.menu {
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  width: 250px;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 6px ;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.menu:active{
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div><img class="profile-picture" src="images/profile-picture.jpeg" alt="">
+    </div>
+    <div class="name">Shalewa Adu</div>
+    <div class="location">London, United Kingdom</div>
+    <div class="bio">"Front-end developer and avid reader."</div>
+<section>
+      <div class="menu">Github</div>
+      <div class="menu">Frontend Mentor</div>
+      <div class="menu">LinkedIn</div>
+      <div class="menu">Twitter</div>
+      <div class="menu">Instagram</div>
+    </section>
+  </div>
+</body>
+</html>
